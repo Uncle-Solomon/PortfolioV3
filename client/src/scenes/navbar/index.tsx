@@ -3,7 +3,7 @@ type Props = {};
 
 function NavBar({}: Props) {
   return (
-    <div className="flex justify-between items-center md:mt-8 lg:mt-12">
+    <div className="relative flex justify-between items-center md:mt-8 lg:mt-12">
       <div>
         <h1 className="text-white text-4xl font-gloria font-bold">ASO</h1>
       </div>
