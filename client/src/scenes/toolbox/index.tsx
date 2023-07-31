@@ -1,3 +1,4 @@
+import { FaToolbox } from "react-icons/fa";
 import arduino from "../../assets/arduino.png";
 import c from "../../assets/c.png";
 import css from "../../assets/css.png";
@@ -19,15 +20,19 @@ import tensorflow from "../../assets/tensorflow.png";
 import typescript from "../../assets/typescript.png";
 import express from "../../assets/express.png";
 import vite from "../../assets/vite.png";
+import Objects from "../../assets/Objects.png";
 
 type Props = {};
 
 function ToolBox({}: Props) {
   return (
     <div className="min-h-screen mt-4 md:-mt-24 mb-4">
-      <h1 className="text-white text-4xl font-patua text-center font-bold mb-12">
-        TOOL BOX
-      </h1>
+      <div className="flex justify-center items-baseline gap-4">
+        <h1 className="text-white text-4xl font-patua text-center font-bold mb-12 flex items-center justify-center gap-x-4">
+          TOOL BOX
+        </h1>
+        <img src={Objects} />
+      </div>
       <div className="flex flex-row flex-wrap justify-evenly gap-x-24 gap-y-32">
         <div className="bg-white h-[337.5px] w-[337.5px]">
           <div className="flex flex-row flex-wrap justify-evenly px-2 pt-4 gap-4">
