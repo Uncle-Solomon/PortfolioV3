@@ -1,4 +1,3 @@
-import { FaToolbox } from "react-icons/fa";
 import arduino from "../../assets/arduino.png";
 import c from "../../assets/c.png";
 import css from "../../assets/css.png";
