@@ -6,7 +6,7 @@ type Props = {};
 
 function Hero({}: Props) {
   return (
-    <div className="flex justify-between mt-32 h-screen">
+    <div className="flex justify-between mt-32 min-h-screen">
       <div className=" w-[56%] mr-6 items-center text-white mt-48">
         <p className="text-3xl font-bold font-montserrat mb-8">
           Hi, My name is Solomon.
@@ -32,7 +32,7 @@ function Hero({}: Props) {
         <img
           src={picture}
           alt="portfolio picture"
-          className="w-[348px] h-[521px] rounded-md"
+          className="w-[348px] h-[521px] rounded-sm"
         />
       </div>
     </div>
