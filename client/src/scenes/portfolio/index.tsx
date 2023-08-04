@@ -15,7 +15,7 @@ function Portfolio({}: Props) {
         </h1>
       </div>
       <div className="">
-        <ul className="flex flex-row flex-wrap justify-evenly gap-x-24 gap-y-24 mb-24">
+        <ul className="flex flex-row flex-wrap justify-evenly gap-x-16 gap-y-16">
           <Project />
           <Project />
           <Project />
