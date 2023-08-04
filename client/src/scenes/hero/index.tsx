@@ -21,7 +21,7 @@ function Hero({}: Props) {
           my skill set, collaborate on projects and expand my interests in tech,
           you can reach me through any of these platforms.
         </p>
-        <div className="px-10 mt-10 flex justify-between ">
+        <div className="px-2 md:px-6 lg:px-10 mt-10 flex justify-between ">
           <BsGithub className="h-9 w-9 text-gray-50" />
           <BsLinkedin className="h-9 w-9 text-gray-50" />
           <BiLogoGmail className="h-9 w-9 text-gray-50" />
@@ -32,7 +32,7 @@ function Hero({}: Props) {
         <img
           src={picture}
           alt="portfolio picture"
-          className="w-[348px] h-[521px] rounded-sm"
+          className="w-[348px] h-[521px] rounded-md"
         />
       </div>
     </div>

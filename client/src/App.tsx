@@ -1,5 +1,7 @@
+import Contact from "./scenes/contact";
 import Hero from "./scenes/hero";
 import NavBar from "./scenes/navbar";
+import Portfolio from "./scenes/portfolio";
 import ToolBox from "./scenes/toolbox";
 
 function App() {
@@ -9,6 +11,8 @@ function App() {
         <NavBar />
         <Hero />
         <ToolBox />
+        <Portfolio />
+        <Contact />
       </div>
     </div>
   );

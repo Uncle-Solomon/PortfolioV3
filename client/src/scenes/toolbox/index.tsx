@@ -28,7 +28,7 @@ function ToolBox({}: Props) {
     <div className="min-h-screen md:-mt-48 mb-4">
       <div className="flex justify-center items-baseline gap-4">
         <h1 className="text-white text-4xl font-patua text-center font-bold mb-12 flex items-center justify-center gap-x-4">
-          TOOL BOX
+          Frameworks / Stack
         </h1>
         <img src={Objects} />
       </div>
