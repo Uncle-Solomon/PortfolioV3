@@ -8,9 +8,9 @@ type Props = {};
 
 function Portfolio({}: Props) {
   return (
-    <div className="min-h-screen mb-4 mt-16">
+    <div className="min-h-screen -mt-8 md:-mt-48 mb-4 ">
       <div className="flex justify-center items-baseline  gap-4">
-        <h1 className="text-white text-4xl font-patua text-center font-bold mb-12 flex items-center justify-center gap-x-4">
+        <h1 className="dark:text-white text-black font-light text-4xl font-patua text-center dark:font-bold mb-12 flex items-center justify-center gap-x-4">
           Recent Projects
         </h1>
       </div>

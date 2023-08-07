@@ -25,75 +25,80 @@ type Props = {};
 
 function ToolBox({}: Props) {
   return (
-    <div className="min-h-screen md:-mt-48 mb-4">
+    <div className="min-h-screen mt-12 mb-4">
       <div className="flex justify-center items-baseline gap-4">
-        <h1 className="text-white text-4xl font-patua text-center font-bold mb-12 flex items-center justify-center gap-x-4">
+        <h1 className="dark:text-white text-black font-light text-4xl font-patua text-center dark:font-bold mb-12 flex items-center justify-center gap-x-4">
           Frameworks / Stack
         </h1>
         <img src={Objects} />
       </div>
-      <div className="flex flex-row flex-wrap justify-evenly gap-x-24 gap-y-32">
-        <div className="bg-white h-[337.5px] w-[337.5px]">
-          <div className="flex flex-row flex-wrap justify-evenly px-2 pt-4 gap-4">
-            <img className="w-20 h-20" src={html} />
-            <img className="w-20 h-20" src={css} />
-            <img className="w-20 h-20" src={react} />
-            <img className="w-20 h-20" src={vite} />
-            <img className="w-20 h-20" src={typescript} />
-            <img className="w-20 h-20" src={tailwindcss} />
-            <img className="w-20 h-20" src={js} />
+      <div className="flex justify-center">
+        {" "}
+        <div className="grid grid-cols-12">
+          <div className="bg-white h-[337.5px] w-[337.5px] shadow-2xl lg:col-span-4 md:col-span-6 col-span-12 mx-4 mb-12">
+            <div className="flex flex-row flex-wrap justify-evenly px-2 pt-4 gap-4">
+              <img className="w-20 h-20" src={html} />
+              <img className="w-20 h-20" src={css} />
+              <img className="w-20 h-20" src={react} />
+              <img className="w-20 h-20" src={vite} />
+              <img className="w-20 h-20" src={typescript} />
+              <img className="w-20 h-20" src={tailwindcss} />
+              <img className="w-20 h-20" src={js} />
+            </div>
+            <p className="text-center font-montserrat mt-3 text-xl font-bold">
+              Front End
+            </p>
           </div>
-          <p className="text-center font-montserrat mt-2 text-xl font-bold">
-            Front End
-          </p>
-        </div>
-        <div className="bg-white h-[337.5px] w-[337.5px]">
-          <div className="flex flex-row flex-wrap justify-evenly px-2 pt-4 gap-4">
-            <img className="w-20 h-20" src={postman} />
-            <img className="w-20 h-20" src={express} />
-            <img className="w-20 h-20" src={flask} />
-            <img className="w-20 h-20" src={postgreSQL} />
-            <img className="w-20 h-20" src={node} />
-            <img className="w-20 h-20" src={mongo} />
-            <img className="w-20 h-20" src={js} />
-            <img className="w-20 h-20" src={typescript} />
-            <img className="w-20 h-20" src={python} />
+          <div className="bg-white h-[337.5px] w-[337.5px] shadow-2xl lg:col-span-4 md:col-span-6 col-span-12 mx-4 mb-12">
+            <div className="flex flex-row flex-wrap justify-evenly px-2 pt-4 gap-4">
+              <img className="w-20 h-20" src={postman} />
+              <img className="w-20 h-20" src={express} />
+              <img className="w-20 h-20" src={flask} />
+              <img className="w-20 h-20" src={postgreSQL} />
+              <img className="w-20 h-20" src={node} />
+              <img className="w-20 h-20" src={mongo} />
+              <img className="w-20 h-20" src={js} />
+              <img className="w-20 h-20" src={typescript} />
+              <img className="w-20 h-20" src={python} />
+            </div>
+            <p className="text-center font-montserrat mt-2 text-xl font-bold">
+              Back End
+            </p>
           </div>
-          <p className="text-center font-montserrat mt-2 text-xl font-bold">
-            Back End
-          </p>
-        </div>
-        <div className="bg-white h-[337.5px] w-[337.5px]">
-          <div className="flex flex-row flex-wrap justify-evenly px-2 pt-4 gap-5">
-            <img className="w-20 h-20" src={scikitlearn} />
-            <span className="w-20 h-20" />
-            <img className="w-20 h-20" src={python} />
-            <span className="w-20 h-20" />
-            <img className="w-20 h-20" src={tensorflow} />
-            <span className="w-20 h-20" />
-            <img className="w-20 h-20" src={jupyter} />
-            <span className="w-20 h-20" />
-            <img className="w-20 h-20" src={googlecolab} />
+          <div className="bg-white h-[337.5px] w-[337.5px] shadow-2xl lg:col-span-4 md:col-span-6 col-span-12 mx-4 mb-12">
+            <div className="flex flex-row flex-wrap justify-evenly px-2 pt-4 gap-5">
+              <img className="w-20 h-20" src={scikitlearn} />
+              <span className="w-20 h-20" />
+              <img className="w-20 h-20" src={python} />
+              <span className="w-20 h-20" />
+              <img className="w-20 h-20" src={tensorflow} />
+              <span className="w-20 h-20" />
+              <img className="w-20 h-20" src={jupyter} />
+              <span className="w-20 h-20" />
+              <img className="w-20 h-20" src={googlecolab} />
+            </div>
+            <p className="text-center font-montserrat mt-2 text-xl font-bold">
+              AI/ML
+            </p>
           </div>
-          <p className="text-center font-montserrat mt-2 text-xl font-bold">
-            AI/ML
-          </p>
-        </div>
-        <div className="bg-white h-[337.5px] w-[337.5px]">
-          <div className="flex flex-row flex-wrap justify-evenly px-2 pt-4 gap-5">
-            <img className="w-20 h-20" src={c} />
-            <span className="w-20 h-20" />
-            <img className="w-20 h-20" src={platformio} />
-            <span className="w-20 h-20" />
-            <img className="w-20 h-20" src={arduino} />
-            <span className="w-20 h-20" />
-            <span className="w-20 h-20" />
-            <span className="w-20 h-20" />
-            <span className="w-20 h-20" />
+          <div className="hidden lg:block lg:col-span-4 md:col-span-6 col-span-12 mx-4"></div>
+          <div className="bg-white h-[337.5px] w-[337.5px] shadow-2xl lg:col-span-4 md:col-span-6 col-span-12 mx-4 mb-12">
+            <div className="flex flex-row flex-wrap justify-evenly px-2 pt-4 gap-5">
+              <img className="w-20 h-20" src={c} />
+              <span className="w-20 h-20" />
+              <img className="w-20 h-20" src={platformio} />
+              <span className="w-20 h-20" />
+              <img className="w-20 h-20" src={arduino} />
+              <span className="w-20 h-20" />
+              <span className="w-20 h-20" />
+              <span className="w-20 h-20" />
+              <span className="w-20 h-20" />
+            </div>
+            <p className="text-center font-montserrat mt-2 text-xl font-bold">
+              Embedded Systems
+            </p>
           </div>
-          <p className="text-center font-montserrat mt-2 text-xl font-bold">
-            Embedded Systems
-          </p>
+          <div className="hidden lg:block lg:col-span-4 md:col-span-6 col-span-12 mx-4"></div>
         </div>
       </div>
     </div>
