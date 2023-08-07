@@ -6,7 +6,7 @@ type Props = {};
 function Project({}: Props) {
   return (
     <li className="relative h-[320px] w-[550px] bg-white ">
-      <div className="p-5 absolute z-30 flex h-[320px] w-[550px] flex-col items-center justify-center whitespace-normal bg-primary-dark text-center text-white opacity-0 transition-all duration-200 hover:opacity-80 font-montserrat">
+      <div className="p-5 absolute z-30 flex h-[320px] w-full flex-col items-center justify-center whitespace-normal bg-primary-dark text-center text-white opacity-0 transition-all duration-200 hover:opacity-80 font-montserrat">
         <p className="text-2xl">A Name</p>
         <p className="mt-6">A brief description</p>
         <div>
