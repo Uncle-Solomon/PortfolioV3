@@ -1,14 +1,10 @@
-// import portfoliogray from "../../assets/portfoliogray.png";
-// import portfolio from "../../assets/portfolio.svg";
-// import { portfolioBlack } from "../../assets/portfolioBlack.png";
-
 import Project from "./Project";
 
 type Props = {};
 
 function Portfolio({}: Props) {
   return (
-    <div className="min-h-screen -mt-8 md:-mt-48 mb-4 ">
+    <div className="min-h-screen mt-4 md:-mt-28 lg:-mt-48 mb-4 ">
       <div className="flex justify-center items-baseline  gap-4">
         <h1 className="dark:text-white text-black font-light text-4xl font-patua text-center dark:font-bold mb-12 flex items-center justify-center gap-x-4">
           Recent Projects
@@ -21,6 +17,11 @@ function Portfolio({}: Props) {
           <Project />
           <Project />
         </ul>
+      </div>
+      <div className="flex justify-center mt-8">
+        <button className="py-4 px-4 font-montserrat bg-white rounded-md text-primary-dark text-sm hover:scale-105 transition duration-500">
+          Load More ...
+        </button>
       </div>
     </div>
   );
