@@ -1,4 +1,5 @@
 import Project from "./Project";
+import projects from "../../assets/projects.json";
 
 type Props = {};
 
@@ -12,10 +13,20 @@ function Portfolio({}: Props) {
       </div>
       <div className="">
         <ul className="flex flex-row flex-wrap justify-evenly gap-x-16 gap-y-16">
+          {projects.map((project, index) => (
+            <Project
+              key={index}
+              name={project.name}
+              description={project.description}
+              frameworks={project.frameworks}
+              image={project.image}
+              demoLink={project.demoLink}
+              githubLink={project.githubLink}
+            />
+          ))}
+          {/* <Project />
           <Project />
-          <Project />
-          <Project />
-          <Project />
+          <Project /> */}
         </ul>
       </div>
       <div className="flex justify-center mt-8">
