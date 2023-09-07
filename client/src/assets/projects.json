@@ -9,7 +9,7 @@
   },
   {
     "name": "Data DashBoard Website",
-    "description": "    Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste illo reprehenderit consequuntur natus maxime laudantium debitis atque voluptatum fuga enim unde, doloribus, aut veritatis, doloremque voluptatem suscipit fugiat sed eveniet.",
+    "description": "This is a project i completed as part of a youtube tutorial which introduced me to using Tailwind CSS with React..",
     "frameworks": "ReactJs, TailwindCSS",
     "image": "./web2.png",
     "githubLink": "https://github.com/Uncle-Solomon/ReactTutorial",
@@ -17,7 +17,7 @@
   },
   {
     "name": "Linked-In Clone Project",
-    "description": "    Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste illo reprehenderit consequuntur natus maxime laudantium debitis atque voluptatum fuga enim unde, doloribus, aut veritatis, doloremque voluptatem suscipit fugiat sed eveniet.",
+    "description": "This project is one of my favorite side projects and I am always returning to make changes and improvements to the code base as I learn new concepts. It is a cumulative test of my current technologies",
     "frameworks": "MongoDb, Express, React, TailwindCSS, NodeJs",
     "image": "./web5.png",
     "githubLink": "https://github.com/Uncle-Solomon/LinkedInClone",
@@ -25,7 +25,7 @@
   },
   {
     "name": "TypeScript React Project",
-    "description": "    Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste illo reprehenderit consequuntur natus maxime laudantium debitis atque voluptatum fuga enim unde, doloribus, aut veritatis, doloremque voluptatem suscipit fugiat sed eveniet.",
+    "description": " This is a project i completed as part of a youtube tutorial which introduced me to using TypeScript with React.",
     "frameworks": "",
     "image": "./web4.png",
     "githubLink": "",
@@ -33,7 +33,23 @@
   },
   {
     "name": "Dalle-Clone using OpenAi Api",
-    "description": "    Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste illo reprehenderit consequuntur natus maxime laudantium debitis atque voluptatum fuga enim unde, doloribus, aut veritatis, doloremque voluptatem suscipit fugiat sed eveniet.",
+    "description": " This is a project i completed as part of a youtube tutorial from JSMastery which introduced me to writing React code.",
+    "frameworks": "ReactJs, ",
+    "image": "./web6.png",
+    "githubLink": "https://github.com/Uncle-Solomon/mern-ai-project",
+    "demoLink": "https://mern-ai-project.vercel.app/"
+  },
+  {
+    "name": "TypeScript React Project",
+    "description": " This is a project i completed as part of a youtube tutorial which introduced me to using TypeScript with React.",
+    "frameworks": "",
+    "image": "./web4.png",
+    "githubLink": "",
+    "demoLink": ""
+  },
+  {
+    "name": "Dalle-Clone using OpenAi Api",
+    "description": " This is a project i completed as part of a youtube tutorial from JSMastery which introduced me to writing React code.",
     "frameworks": "ReactJs, ",
     "image": "./web6.png",
     "githubLink": "https://github.com/Uncle-Solomon/mern-ai-project",
