@@ -21,7 +21,7 @@ function Contact({}: Props) {
   return (
     <div className=" mt-8 grid grid-cols-12">
       <div className="col-span-12 md:col-span-8 md:mr-8">
-        <h1 className=" flex justify-center md:justify-start text-black font-semibold font-comingsoon dark:text-white text-3xl dark:font-light mb-12">
+        <h1 className=" flex justify-center md:justify-start text-black font-semibold font-comingsoon transition-all duration-500 dark:text-white text-3xl dark:font-light mb-12">
           Send Me an Email
         </h1>
         <form

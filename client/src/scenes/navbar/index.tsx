@@ -15,7 +15,7 @@ function NavBar({ darkMode, toggleDarkMode }: Props) {
   return (
     <div className="relative flex justify-between items-center mt-4 md:mt-8 lg:mt-12">
       <div>
-        <h1 className="dark:text-white text-black text-4xl font-gloria font-bold">
+        <h1 className="dark:text-white transition-all duration-500 text-black text-4xl font-gloria font-bold">
           ASO
         </h1>
       </div>

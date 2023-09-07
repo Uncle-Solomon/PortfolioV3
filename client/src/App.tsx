@@ -12,7 +12,9 @@ function App() {
   };
   return (
     <div className={`${darkMode ? "dark" : ""}`}>
-      <div className={`dark:bg-primary-dark bg-primary-light`}>
+      <div
+        className={`dark:bg-primary-dark transition-all duration-1000 bg-primary-light`}
+      >
         <div className="max-w-[1200px] mx-auto items-center px-4 py-2">
           <NavBar darkMode={darkMode} toggleDarkMode={toggleDarkMode} />
           <Hero />

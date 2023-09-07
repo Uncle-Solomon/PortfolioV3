@@ -27,7 +27,7 @@ function ToolBox({}: Props) {
   return (
     <div className="min-h-screen mt-12 mb-4">
       <div className="flex justify-center items-baseline gap-4">
-        <h1 className="dark:text-white text-black font-light text-4xl font-patua text-center dark:font-bold mb-12 flex items-center justify-center gap-x-4">
+        <h1 className="dark:text-white text-black transition-all duration-500 font-light text-4xl font-patua text-center dark:font-bold mb-12 flex items-center justify-center gap-x-4">
           Frameworks / Stack
         </h1>
         <img src={Objects} />

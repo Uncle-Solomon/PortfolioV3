@@ -7,7 +7,7 @@ function Portfolio({}: Props) {
   return (
     <div className="min-h-screen mt-4 md:-mt-28 lg:-mt-48 mb-4 ">
       <div className="flex justify-center items-baseline  gap-4">
-        <h1 className="dark:text-white text-black font-light text-4xl font-patua text-center dark:font-bold mb-12 flex items-center justify-center gap-x-4">
+        <h1 className="dark:text-white transition-all duration-500 text-black font-light text-4xl font-patua text-center dark:font-bold mb-12 flex items-center justify-center gap-x-4">
           Recent Projects
         </h1>
       </div>
