@@ -44,7 +44,7 @@
     "description": " This is a project I completed for who i will like to call my first client :). it is a simple informative website made with React and Typescript.",
     "frameworks": "React, TypeScript, TailwindCss ",
     "image": "./web7.png",
-    "githubLink": "https://thefoundationafrica.vercel.app/",
-    "demoLink": "https://github.com/Uncle-Solomon/tfa"
+    "githubLink": "https://github.com/Uncle-Solomon/tfa",
+    "demoLink": "https://thefoundationafrica.vercel.app/"
   }
 ]
