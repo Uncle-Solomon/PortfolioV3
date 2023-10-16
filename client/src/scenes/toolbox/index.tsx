@@ -20,6 +20,7 @@ import typescript from "../../assets/typescript.png";
 import express from "../../assets/express.png";
 import vite from "../../assets/vite.png";
 import Objects from "../../assets/Objects.png";
+import { motion } from "framer-motion";
 
 type Props = {};
 
@@ -34,8 +35,18 @@ function ToolBox({}: Props) {
       </div>
       <div className="flex justify-center">
         {" "}
-        <div className="grid grid-cols-12">
-          <div className="bg-white h-[200px] w-[200px] shadow-2xl lg:col-span-4 md:col-span-6 col-span-12 mx-4 mb-12">
+        <div className="grid grid-cols-12 md:gap-x-12 md:gap-y-12">
+          <motion.div
+            initial="hidden"
+            whileInView="visible"
+            transition={{ duration: 1.5 }}
+            viewport={{ amount: 0.5 }}
+            variants={{
+              hidden: { rotate: -5, opacity: 0.3 },
+              visible: { rotate: 0, opacity: 1, scale: 0.95 },
+            }}
+            className="bg-white h-[200px] w-[200px] shadow-2xl lg:col-span-4 md:col-span-6 col-span-12 mx-4 mb-12"
+          >
             <div className="flex flex-row flex-wrap justify-evenly px-2 pt-6 gap-6">
               <img className="w-8 h-8" src={html} />
               <img className="w-8 h-8" src={css} />
@@ -45,11 +56,21 @@ function ToolBox({}: Props) {
               <img className="w-8 h-8" src={tailwindcss} />
               <img className="w-8 h-8" src={js} />
             </div>
-            <p className="text-center font-montserrat mb-4 mt-10 text-xl font-bold dark:text-white text-black">
+            <p className="text-center font-montserrat mb-4 mt-12 md:mt-[4.5rem] text-xl font-bold dark:text-white text-black">
               Front End
             </p>
-          </div>
-          <div className="bg-white h-[200px] w-[200px] shadow-2xl lg:col-span-4 md:col-span-6 col-span-12 mx-4 mb-12">
+          </motion.div>
+          <motion.div
+            initial="hidden"
+            whileInView="visible"
+            transition={{ duration: 1.5 }}
+            viewport={{ amount: 0.5 }}
+            variants={{
+              hidden: { rotate: -5, opacity: 0.3 },
+              visible: { rotate: 0, opacity: 1, scale: 0.95 },
+            }}
+            className="bg-white h-[200px] w-[200px] shadow-2xl lg:col-span-4 md:col-span-6 col-span-12 mx-4 mb-12"
+          >
             <div className="flex flex-row flex-wrap justify-evenly px-2 pt-6 gap-6">
               <img className="w-8 h-8" src={postman} />
               <img className="w-8 h-8" src={express} />
@@ -61,11 +82,21 @@ function ToolBox({}: Props) {
               <img className="w-8 h-8" src={typescript} />
               <img className="w-8 h-8" src={python} />
             </div>
-            <p className="text-center font-montserrat mb-4 mt-10  text-xl font-bold dark:text-white text-black">
+            <p className="text-center font-montserrat mb-4 mt-12 md:mt-[4.5rem]  text-xl font-bold dark:text-white text-black">
               Back End
             </p>
-          </div>
-          <div className="bg-white h-[200px] w-[200px] shadow-2xl lg:col-span-4 md:col-span-6 col-span-12 mx-4 mb-12">
+          </motion.div>
+          <motion.div
+            initial="hidden"
+            whileInView="visible"
+            transition={{ duration: 1.5 }}
+            viewport={{ amount: 0.5 }}
+            variants={{
+              hidden: { rotate: -5, opacity: 0.3 },
+              visible: { rotate: 0, opacity: 1, scale: 0.95 },
+            }}
+            className="bg-white h-[200px] w-[200px] shadow-2xl lg:col-span-4 md:col-span-6 col-span-12 mx-4 mb-12"
+          >
             <div className="flex flex-row flex-wrap justify-evenly px-2 pt-6 gap-6">
               <img className="w-8 h-8" src={scikitlearn} />
               <span className="w-8 h-8" />
@@ -77,12 +108,22 @@ function ToolBox({}: Props) {
               <span className="w-8 h-8" />
               <img className="w-8 h-8" src={googlecolab} />
             </div>
-            <p className="text-center font-montserrat mb-4 mt-10  text-xl font-bold dark:text-white text-black">
+            <p className="text-center font-montserrat mb-4 mt-12 md:mt-[4.5rem]  text-xl font-bold dark:text-white text-black">
               AI/ML
             </p>
-          </div>
+          </motion.div>
           <div className="hidden lg:block lg:col-span-4 md:col-span-6 col-span-12 mx-4"></div>
-          <div className="bg-white h-[200px] w-[200px] shadow-2xl lg:col-span-4 md:col-span-6 col-span-12 mx-4 mb-12">
+          <motion.div
+            initial="hidden"
+            whileInView="visible"
+            transition={{ duration: 1.5 }}
+            viewport={{ amount: 0.5 }}
+            variants={{
+              hidden: { rotate: -5, opacity: 0.3 },
+              visible: { rotate: 0, opacity: 1, scale: 0.95 },
+            }}
+            className="bg-white h-[200px] w-[200px] shadow-2xl lg:col-span-4 md:col-span-6 col-span-12 mx-4 mb-12"
+          >
             <div className="flex flex-row flex-wrap justify-evenly px-2 pt-6 gap-6">
               <img className="w-8 h-8" src={c} />
               <span className="w-8 h-8" />
@@ -94,10 +135,10 @@ function ToolBox({}: Props) {
               <span className="w-8 h-8" />
               <span className="w-8 h-8" />
             </div>
-            <p className="text-center font-montserrat mb-4 mt-10 text-xl font-bold dark:text-white text-black">
+            <p className="text-center font-montserrat mb-4 mt-12 md:mt-[4.5rem] text-xl font-bold dark:text-white text-black">
               Embedded Systems
             </p>
-          </div>
+          </motion.div>
           <div className="hidden lg:block lg:col-span-4 md:col-span-6 col-span-12 mx-4"></div>
         </div>
       </div>

@@ -1,5 +1,6 @@
 import { useForm } from "react-hook-form";
 import picture from "../../assets/test.jpg";
+import { motion } from "framer-motion";
 
 type Props = {};
 
@@ -20,7 +21,17 @@ function Contact({}: Props) {
 
   return (
     <div className=" mt-16 md:mt-8 grid grid-cols-12">
-      <div className="col-span-12 md:col-span-8 md:mr-8">
+      <motion.div
+        initial="hidden"
+        whileInView="visible"
+        viewport={{ amount: 0.3 }}
+        transition={{ duration: 2 }}
+        variants={{
+          hidden: { opacity: 0, x: -100 },
+          visible: { opacity: 1, x: 0 },
+        }}
+        className="col-span-12 md:col-span-8 md:mr-8"
+      >
         <h1 className=" flex justify-center md:justify-start text-black font-semibold font-comingsoon transition-all duration-500 dark:text-white text-3xl dark:font-light mb-12">
           Send Me an Email
         </h1>
@@ -95,8 +106,18 @@ function Contact({}: Props) {
             Ameh Solomon Onyeke A.S.O 2023 &copy;
           </p>
         </div>
-      </div>
-      <div className="hidden md:block col-span-4">
+      </motion.div>
+      <motion.div
+        initial="hidden"
+        whileInView="visible"
+        viewport={{ amount: 0.3 }}
+        transition={{ duration: 2 }}
+        variants={{
+          hidden: { opacity: 0, y: -100 },
+          visible: { opacity: 1, y: 0 },
+        }}
+        className="hidden md:block col-span-4"
+      >
         <img
           src={picture}
           alt="portfolio picture"
@@ -111,7 +132,7 @@ function Contact({}: Props) {
             Ameh Solomon Onyeke A.S.O 2023 &copy;
           </p>
         </div>
-      </div>
+      </motion.div>
     </div>
   );
 }
