@@ -35,66 +35,66 @@ function ToolBox({}: Props) {
       <div className="flex justify-center">
         {" "}
         <div className="grid grid-cols-12">
-          <div className="bg-white h-[337.5px] w-[337.5px] shadow-2xl lg:col-span-4 md:col-span-6 col-span-12 mx-4 mb-12">
-            <div className="flex flex-row flex-wrap justify-evenly px-2 pt-4 gap-4">
-              <img className="w-20 h-20" src={html} />
-              <img className="w-20 h-20" src={css} />
-              <img className="w-20 h-20" src={react} />
-              <img className="w-20 h-20" src={vite} />
-              <img className="w-20 h-20" src={typescript} />
-              <img className="w-20 h-20" src={tailwindcss} />
-              <img className="w-20 h-20" src={js} />
+          <div className="bg-white h-[200px] w-[200px] shadow-2xl lg:col-span-4 md:col-span-6 col-span-12 mx-4 mb-12">
+            <div className="flex flex-row flex-wrap justify-evenly px-2 pt-6 gap-6">
+              <img className="w-8 h-8" src={html} />
+              <img className="w-8 h-8" src={css} />
+              <img className="w-8 h-8" src={react} />
+              <img className="w-8 h-8" src={vite} />
+              <img className="w-8 h-8" src={typescript} />
+              <img className="w-8 h-8" src={tailwindcss} />
+              <img className="w-8 h-8" src={js} />
             </div>
-            <p className="text-center font-montserrat mt-3 text-xl font-bold">
+            <p className="text-center font-montserrat mb-4 mt-10 text-xl font-bold dark:text-white text-black">
               Front End
             </p>
           </div>
-          <div className="bg-white h-[337.5px] w-[337.5px] shadow-2xl lg:col-span-4 md:col-span-6 col-span-12 mx-4 mb-12">
-            <div className="flex flex-row flex-wrap justify-evenly px-2 pt-4 gap-4">
-              <img className="w-20 h-20" src={postman} />
-              <img className="w-20 h-20" src={express} />
-              <img className="w-20 h-20" src={flask} />
-              <img className="w-20 h-20" src={postgreSQL} />
-              <img className="w-20 h-20" src={node} />
-              <img className="w-20 h-20" src={mongo} />
-              <img className="w-20 h-20" src={js} />
-              <img className="w-20 h-20" src={typescript} />
-              <img className="w-20 h-20" src={python} />
+          <div className="bg-white h-[200px] w-[200px] shadow-2xl lg:col-span-4 md:col-span-6 col-span-12 mx-4 mb-12">
+            <div className="flex flex-row flex-wrap justify-evenly px-2 pt-6 gap-6">
+              <img className="w-8 h-8" src={postman} />
+              <img className="w-8 h-8" src={express} />
+              <img className="w-8 h-8" src={flask} />
+              <img className="w-8 h-8" src={postgreSQL} />
+              <img className="w-8 h-8" src={node} />
+              <img className="w-8 h-8" src={mongo} />
+              <img className="w-8 h-8" src={js} />
+              <img className="w-8 h-8" src={typescript} />
+              <img className="w-8 h-8" src={python} />
             </div>
-            <p className="text-center font-montserrat mt-2 text-xl font-bold">
+            <p className="text-center font-montserrat mb-4 mt-10  text-xl font-bold dark:text-white text-black">
               Back End
             </p>
           </div>
-          <div className="bg-white h-[337.5px] w-[337.5px] shadow-2xl lg:col-span-4 md:col-span-6 col-span-12 mx-4 mb-12">
-            <div className="flex flex-row flex-wrap justify-evenly px-2 pt-4 gap-5">
-              <img className="w-20 h-20" src={scikitlearn} />
-              <span className="w-20 h-20" />
-              <img className="w-20 h-20" src={python} />
-              <span className="w-20 h-20" />
-              <img className="w-20 h-20" src={tensorflow} />
-              <span className="w-20 h-20" />
-              <img className="w-20 h-20" src={jupyter} />
-              <span className="w-20 h-20" />
-              <img className="w-20 h-20" src={googlecolab} />
+          <div className="bg-white h-[200px] w-[200px] shadow-2xl lg:col-span-4 md:col-span-6 col-span-12 mx-4 mb-12">
+            <div className="flex flex-row flex-wrap justify-evenly px-2 pt-6 gap-6">
+              <img className="w-8 h-8" src={scikitlearn} />
+              <span className="w-8 h-8" />
+              <img className="w-8 h-8" src={python} />
+              <span className="w-8 h-8" />
+              <img className="w-8 h-8" src={tensorflow} />
+              <span className="w-8 h-8" />
+              <img className="w-8 h-8" src={jupyter} />
+              <span className="w-8 h-8" />
+              <img className="w-8 h-8" src={googlecolab} />
             </div>
-            <p className="text-center font-montserrat mt-2 text-xl font-bold">
+            <p className="text-center font-montserrat mb-4 mt-10  text-xl font-bold dark:text-white text-black">
               AI/ML
             </p>
           </div>
           <div className="hidden lg:block lg:col-span-4 md:col-span-6 col-span-12 mx-4"></div>
-          <div className="bg-white h-[337.5px] w-[337.5px] shadow-2xl lg:col-span-4 md:col-span-6 col-span-12 mx-4 mb-12">
-            <div className="flex flex-row flex-wrap justify-evenly px-2 pt-4 gap-5">
-              <img className="w-20 h-20" src={c} />
-              <span className="w-20 h-20" />
-              <img className="w-20 h-20" src={platformio} />
-              <span className="w-20 h-20" />
-              <img className="w-20 h-20" src={arduino} />
-              <span className="w-20 h-20" />
-              <span className="w-20 h-20" />
-              <span className="w-20 h-20" />
-              <span className="w-20 h-20" />
+          <div className="bg-white h-[200px] w-[200px] shadow-2xl lg:col-span-4 md:col-span-6 col-span-12 mx-4 mb-12">
+            <div className="flex flex-row flex-wrap justify-evenly px-2 pt-6 gap-6">
+              <img className="w-8 h-8" src={c} />
+              <span className="w-8 h-8" />
+              <img className="w-8 h-8" src={platformio} />
+              <span className="w-8 h-8" />
+              <img className="w-8 h-8" src={arduino} />
+              <span className="w-8 h-8" />
+              <span className="w-8 h-8" />
+              <span className="w-8 h-8" />
+              <span className="w-8 h-8" />
             </div>
-            <p className="text-center font-montserrat mt-2 text-xl font-bold">
+            <p className="text-center font-montserrat mb-4 mt-10 text-xl font-bold dark:text-white text-black">
               Embedded Systems
             </p>
           </div>
