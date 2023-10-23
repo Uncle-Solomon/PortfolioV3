@@ -7,7 +7,7 @@ type Props = {
 };
 
 function NavBar({ darkMode, toggleDarkMode }: Props) {
-  const fileUrl = "/AmehSolomonOnyekeResume.pdf";
+  const fileUrl = "/AmehSolomonOnyekeResumeRecent.pdf";
   const fileName = "Ameh Solomon Onyeke";
   const handleClick = () => {
     FileSaver.saveAs(fileUrl, fileName);
