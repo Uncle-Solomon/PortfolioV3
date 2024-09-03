@@ -1,27 +1,11 @@
 [
   {
-    "name": "Heart-Care App",
-    "description": "This project was part of the requirements for my undergraduate study. It was a combination of IOT and Machine learning technology deployed through a web software.",
-    "frameworks": "React, JavaScript, TailwindCSS, NodeJS, Express, MongoDb, Python, Arduino",
-    "image": "./web1.png",
-    "githubLink": "https://github.com/Uncle-Solomon/HeartCareAppJs",
-    "demoLink": "https://heart-care-app.vercel.app/"
-  },
-  {
     "name": "Data DashBoard Website",
     "description": "This is a project i completed as part of a youtube tutorial which introduced me to using Tailwind CSS with React..",
     "frameworks": "ReactJs, TailwindCSS",
     "image": "./web2.png",
     "githubLink": "https://github.com/Uncle-Solomon/ReactTutorial",
     "demoLink": "https://react-data-app.vercel.app/"
-  },
-  {
-    "name": "Linked-In Clone Project",
-    "description": "This project is one of my favorite side projects and I am always returning to make changes and improvements to the code base as I learn new concepts. It is a cumulative test of my current technologies",
-    "frameworks": "MongoDb, Express, React, TailwindCSS, NodeJs",
-    "image": "./web5.png",
-    "githubLink": "https://github.com/Uncle-Solomon/LinkedInClone",
-    "demoLink": "https://linkedin-clone-by-aso.vercel.app/"
   },
   {
     "name": "TypeScript React Project",
@@ -46,5 +30,21 @@
     "image": "./web7.png",
     "githubLink": "https://github.com/Uncle-Solomon/tfa",
     "demoLink": "https://thefoundationafrica.vercel.app/"
+  },
+  {
+    "name": "Linked-In Clone Project",
+    "description": "This project is one of my favorite side projects and I am always returning to make changes and improvements to the code base as I learn new concepts. It is a cumulative test of my current technologies",
+    "frameworks": "MongoDb, Express, React, TailwindCSS, NodeJs",
+    "image": "./web5.png",
+    "githubLink": "https://github.com/Uncle-Solomon/LinkedInClone",
+    "demoLink": "https://linkedin-clone-by-aso.vercel.app/"
+  }, 
+  {
+    "name": "Heart-Care App",
+    "description": "This project was part of the requirements for my undergraduate study. It was a combination of IOT and Machine learning technology deployed through a web software.",
+    "frameworks": "React, JavaScript, TailwindCSS, NodeJS, Express, MongoDb, Python, Arduino",
+    "image": "./web1.png",
+    "githubLink": "https://github.com/Uncle-Solomon/HeartCareAppJs",
+    "demoLink": "https://heart-care-app.vercel.app/"
   }
 ]
